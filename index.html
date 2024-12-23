@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InterestSphere Gender Selection</title>
+  <link rel="stylesheet" href="gender.css">
+</head>
+<body>
+  <div class="modal">
+    <div class="modal-content">
+      <div class="progress-indicator">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <h2>What's your gender?</h2>
+      <p>
+        This helps us find you more relevant content. We won’t show it on your profile.
+      </p>
+      <form id="gender-form">
+        <label>
+          <input type="radio" name="gender" value="female"> Female
+        </label>
+        <label>
+          <input type="radio" name="gender" value="male"> Male
+        </label>
+        <label>
+          <input type="radio" name="gender" value="other"> Specify another
+        </label>
+        <button type="submit" class="next-button">Next</button>
+      </form>
+    </div>
+  </div>
+  <script src="gender.js"></script>
+</body>
+</html>
